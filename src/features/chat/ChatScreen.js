@@ -1,15 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import StackNavigator from '@navigation/StackNavigator'
 
-const App = () => {
+const ChatScreen = () => {
   return (
-    <>
-      <StackNavigator />
-    </>
+    <View>
+      <Text>ChatScreen</Text>
+    </View>
   )
 }
 
-export default App
+export default ChatScreen
 
 const styles = StyleSheet.create({})
